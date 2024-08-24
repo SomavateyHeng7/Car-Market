@@ -41,7 +41,6 @@ export default function ContactUs() {
       setIsSubmitted(true);
       console.log("Form submitted:", formData);
 
-      // Reset the form after submission
       setFormData({
         name: "",
         email: "",
@@ -49,7 +48,6 @@ export default function ContactUs() {
         message: "",
       });
 
-      // Reset submission status after a delay
       setTimeout(() => setIsSubmitted(false), 3000);
     }
   };
