@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+.homepage {
+    text-align: center;
+}
+
+.home {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.home-content {
+    max-width: 600px;
+}
+  
+.home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+.home p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #666;
+}
+  
+.btn-dark {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333; /* Dark color for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-dark:hover {
+    background-color: #555; /* Slightly lighter on hover */
+  }
+  
+  /* Features section styles */
+  .features {
+    padding: 50px 20px;
+    background-color: white; /* White background for contrast */
+  }
+  
+  .features h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #333; /* Black color for the heading */
+  }
+  
+  .feature {
+    margin-bottom: 30px;
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    color: #333; /* Black color for the subheading */
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1.1em;
+    color: #555; /* Dark grey for text */
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
+@media (max-width: 768px) {
+  .hero {
+  padding: 50px 20px;
+}
+  
+    .hero h1 {
+      font-size: 2em;
+    }
+  
+    .features h2 {
+      font-size: 1.8em;
+    }
+  
+    .feature h3 {
+      font-size: 1.3em;
+    }
+  }
+
+  
