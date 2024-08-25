@@ -6,7 +6,7 @@ import HighlightedCars from './pages/highlightedCar';
 import CarDetails from './pages/CarDetails';
 import HomePage from './pages/homepage'; 
 import ContactUS from './pages/contactus'; 
-import BrandDetails from './pages/BrandDetails'; // Import the new component
+import BrandDetails from './pages/BrandDetails'; 
 import './assets/dashboard.css';
 
 const App = () => {

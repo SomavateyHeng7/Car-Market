@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NavBar from "../components/NavBar";
 import '../assets/contactus.css';
 
 export default function ContactUs() {
@@ -53,7 +54,9 @@ export default function ContactUs() {
   };
 
   return (
+   
     <div id="contact-us-page">
+      <NavBar />
       <div className="contact-us-container">
         <h1>Contact Us</h1>
         <p>We would love to hear from you! Please fill out the form below to get in touch.</p>
